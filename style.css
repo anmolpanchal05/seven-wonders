@@ -1,0 +1,442 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wallpaper2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.navopt {
+    text-decoration: none;
+    color: white;
+    border: 1.5px solid white;
+    font-size: 25px;
+    margin: 4px;
+    align-content: flex-end;
+
+}
+
+.navopt:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 4px 4px;
+}
+
+#main {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 120px;
+    font-family: century;
+    margin-left: 70px;
+    margin-bottom: 250px;
+    margin-top: 250px;
+
+}
+
+#section {
+    display: flex;
+}
+
+#text {
+    width: 700px;
+    margin-right: 15px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+    font-family: century;
+}
+
+#pic {
+    height: 500px;
+    width: 500px;
+    background-image: url("wallpaper3.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(156, 136, 136), inset -2px -2px 4px rgb(156, 136, 136);
+}
+
+@media (max-width: 400px) {
+    body {
+        background-image: url("wallpaper.jpg");
+        background-size: cover;
+    }
+}
+
+/**********************************side picture styling**************************************/
+
+
+
+
+
+
+.contain {
+    display: flex;
+}
+
+.div1 {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(168, 155, 155);
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+
+.div1:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+}
+
+.div2 {
+    height: 250px;
+    width: 900px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(168, 155, 155);
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.div3 {
+    background-image: url("Taj_mahal.jpg");
+    background-size: cover;
+}
+
+.div4 {
+    background-image: url("chichen-itza-.jpg");
+    background-size: cover;
+}
+
+.div5 {
+    background-image: url("christ-the-redeemer.jpg");
+    background-size: cover;
+}
+
+.div6 {
+    background-image: url("colosseum.jpg");
+    background-size: cover;
+}
+
+.div7 {
+    background-image: url("patra.jpg");
+    background-size: cover;
+}
+
+.div8 {
+    background-image: url("the_great_wall_of_china.jpg");
+    background-size: cover;
+}
+
+.div9 {
+    background-image: url("machu-picchu-peru.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+/***********************************paragraph styling**********************************************/
+
+
+
+
+
+.topic {
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+}
+
+.paragraph {
+    font-size: 20px;
+    color: white;
+}
+
+.learn {
+    color: blueviolet;
+}
+
+.name {
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.taj {
+    margin-top: 30px;
+}
+
+.para {
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(168, 155, 155);
+    margin-top: 100px;
+}
+
+
+
+
+
+/***********************pictures styling***********************************/
+
+
+
+
+#frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid {
+    height: 500px;
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(168, 155, 155);
+}
+
+.min {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(168, 155, 155);
+    margin-bottom: 16px;
+}
+
+#min {
+    margin-left: 50px;
+}
+
+.mid:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.min:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+
+/*************************************pictures****************************************/
+
+
+
+
+.mid1 {
+    background-image: url("Taj_mahal.jpg");
+    background-size: cover;
+}
+
+.t {
+    background-image: url("taj2.jpg");
+    background-size: cover;
+}
+
+.a {
+    background-image: url("taj3.jpg");
+    background-size: cover;
+}
+
+.j {
+    background-image: url("taj4.jpg");
+    background-size: cover;
+}
+
+
+
+/******************second image***********************/
+
+
+
+
+.mid2 {
+    background-image: url("chichen-itza-.jpg");
+    background-size: cover;
+}
+
+.i {
+    background-image: url("itza2.jpg");
+    background-size: cover;
+}
+
+.tt {
+    background-image: url("itza3.jpg");
+    background-size: cover;
+}
+
+.za {
+    background-image: url("itza4.jpg");
+    background-size: cover;
+}
+
+
+
+/*******************************third image***************************/
+
+
+.mid3 {
+    background-image: url("christ-the-redeemer.jpg");
+    background-size: cover;
+}
+
+.r {
+    background-image: url("red1.jpg");
+    background-size: cover;
+}
+
+.e {
+    background-image: url("red2.webp");
+    background-size: cover;
+}
+
+.d {
+    background-image: url("red3.jpg");
+    background-size: cover;
+}
+
+
+
+/****************************forth image**************************/
+
+
+.mid4 {
+    background-image: url("colosseum.jpg");
+    background-size: cover;
+}
+
+.c {
+    background-image: url("col2.jpg");
+    background-size: cover;
+}
+
+.o {
+    background-image: url("col1.webp");
+    background-size: cover;
+}
+
+.l {
+    background-image: url("col3.webp");
+    background-size: cover;
+}
+
+
+
+/*****************************fifth*********************************/
+
+
+
+.mid5 {
+    background-image: url("patra.jpg");
+    background-size: cover;
+}
+
+.p {
+    background-image: url("pet1.jpg");
+    background-size: cover;
+}
+
+.ee {
+    background-image: url("pet2.jpg");
+    background-size: cover;
+}
+
+.tra {
+    background-image: url("pet3.jpg");
+    background-size: cover;
+}
+
+
+
+/**************************sixth*************************/
+
+
+
+.mid6 {
+    background-image: url("the_great_wall_of_china.jpg");
+    background-size: cover;
+}
+
+.w {
+    background-image: url("china1.jpg");
+    background-size: cover;
+}
+
+.aa {
+    background-image: url("china2.jpg");
+    background-size: cover;
+}
+
+.ll {
+    background-image: url("china3.webp");
+    background-size: cover;
+}
+
+/**************************seventh***************************/
+
+.mid7 {
+    background-image: url("machu-picchu-peru.jpg");
+    background-size: cover;
+}
+
+.ma {
+    background-image: url("mac1.jpg");
+    background-size: cover;
+}
+
+.cc {
+    background-image: url("mac4.jpg");
+    background-size: cover;
+}
+
+.hu {
+    background-image: url("mac3.jpg");
+    background-size: cover;
+}
+
+#but {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.button {
+    align-items: flex-end;
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+.button1 {
+    text-decoration: none;
+    color: white;
+    border: 1.5px solid white;
+    font-size: 25px;
+
+}
